@@ -9,17 +9,20 @@ export default function Viagem() {
         setResul(Math.ceil((dist / consumo) / capac));
     }
     return(
-        <div>
-            <label>capacidade</label>
+        <div className="incial">
+            
+            <h1>Calcular Paradas</h1>
+
+            <p>capacidade</p>
             <input value={capac} onChange={(e) => setCapac(Number(e.target.value))} type="text" />
             
-            <label>consumo</label>
+            <p>consumo</p>
             <input value={consumo} onChange={(e) => setConsumo(Number(e.target.value))} type="text" />
             
-            <label>distancia</label>
+            <p>distancia</p>
             <input value={dist} onChange={(e) => setDist(Number(e.target.value))} type="text" />
             <button onClick={()=>calcular()}>Calcular</button>
-            <h1>{resul}</h1>
+            <h6>{resul}</h6>
         </div>
     )
 }

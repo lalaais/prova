@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export default function Salario() {
+export default function Febre() {
 
     const [febrinha, setFebrinha] = useState();
     const [resul, setResul] = useState();
