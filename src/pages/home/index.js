@@ -19,6 +19,9 @@ const navigate = useNavigate('');
             <button className='button6' onClick={() => navigate("/febre")}>Febre</button>
             <button className='button7' onClick={() => navigate("/orcamento")}>Orçamento</button>
             <button className='button8' onClick={() => navigate("/cinema")}>Cinema</button>
+            <button className='button9' onClick={() => navigate("/contador")}>Contador</button>
+            <button className='button10' onClick={() => navigate("/linha")}>Linhas</button>
+            <button className='button11' onClick={() => navigate("/quadrado")}>Quadrado</button>
         </div>
         
     )

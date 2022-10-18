@@ -26,7 +26,7 @@ export default function Acai() {
 
     return(
         <main className="first">
-            <button onClick={() => navigate("/home")}>Voltar</button>
+            <button onClick={() => navigate("/")}>Voltar</button>
             
             <h1> Açai</h1>
 
