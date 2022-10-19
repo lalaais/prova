@@ -11,8 +11,8 @@ export default function TamanhoLinha(){
 
     function linha (){
         let array = [];
-        for( let i = 0; i <= qtd; i++){
-            array.push(i)
+        for( let i = 1; i <= qtd; i++){
+            array.push('*')
         }
         setResul(array);
     }
@@ -30,8 +30,9 @@ export default function TamanhoLinha(){
         <input value={qtd} onChange={(e)=> setQtd(Number(e.target.value))} type="number" />
 
         <button onClick={()=> linha()}> Fazer Linha </button>
+
+        <div className="results">{resul.map(item => <h2>{ item }</h2>)}</div>
         
-        {resul.map(item => <h2 className="results">{ item }</h2>)}
     </main>
 
     )
