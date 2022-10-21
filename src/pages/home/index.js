@@ -22,6 +22,8 @@ const navigate = useNavigate('');
             <button className='button9' onClick={() => navigate("/contador")}>Contador</button>
             <button className='button10' onClick={() => navigate("/linha")}>Linhas</button>
             <button className='button11' onClick={() => navigate("/quadrado")}>Quadrado</button>
+            <button className='button12' onClick={() => navigate("/café")}>Café</button>
+            <button className='button13' onClick={() => navigate("/juros")}>Juros</button>
         </div>
         
     )

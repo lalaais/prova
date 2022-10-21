@@ -1,0 +1,16 @@
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+ 
+ 
+    .juros{
+        background-color: #fabdf2;
+        height: 45px;
+        width: 80px;
+        border-color: #d884cd;
+        border-radius: 10px;
+       }
+}

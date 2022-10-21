@@ -11,6 +11,8 @@ import Cinema from "./pages/cinema";
 import FuncaoContar from "./pages/contar";
 import TamanhoLinha from "./pages/linha";
 import Quadrado from "./pages/quadrado";
+import Cafe from "./pages/cafe";
+import Juros from "./pages/juros"
 
 export default function Path() {
     return(
@@ -28,6 +30,9 @@ export default function Path() {
                 <Route exact path="/contador" element={<FuncaoContar/>}/>
                 <Route exact path="/linha" element={<TamanhoLinha/>}/>
                 <Route exact path="/quadrado" element={<Quadrado/>}/>
+                <Route exact path="/cafe" element={<Cafe/>}/>
+                <Route exact path="/juros" element={<Juros/>}/>
+
             </Routes>
         </BrowserRouter>
     )
