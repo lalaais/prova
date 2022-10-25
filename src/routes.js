@@ -13,6 +13,7 @@ import TamanhoLinha from "./pages/linha";
 import Quadrado from "./pages/quadrado";
 import Cafe from "./pages/cafe";
 import Juros from "./pages/juros"
+import NotaAlunos from "./pages/alunos";
 
 export default function Path() {
     return(
@@ -32,6 +33,7 @@ export default function Path() {
                 <Route exact path="/quadrado" element={<Quadrado/>}/>
                 <Route exact path="/cafe" element={<Cafe/>}/>
                 <Route exact path="/juros" element={<Juros/>}/>
+                <Route exact path="/alunos" element={<NotaAlunos/>}/>
 
             </Routes>
         </BrowserRouter>
